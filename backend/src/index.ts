@@ -11,6 +11,7 @@
 // ============================================================================
 // Importa o framework Express e seus tipos TypeScript
 import express, { Express, Request, Response } from 'express';
+Teste "Frango Assado"
 
 // Importa o middleware CORS (Cross-Origin Resource Sharing)
 // Permite que requisições de outros domínios acessem nosso servidor
