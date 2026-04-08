@@ -1,4 +1,12 @@
 services:
+  db:
+   image: mysql:8.0
+   restart: always 
+   environment: 
+    MYSQL_DATABASE: backend_database
+    MYSQL_ROOT_PASSWORD: root_password
+   ports:
+    - "3306:3306"
   backend:
     build:
       context: ./backend
